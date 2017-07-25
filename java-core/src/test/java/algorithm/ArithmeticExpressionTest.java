@@ -4,6 +4,8 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
+import algorithm.math.ArithmeticExpression;
+
 public class ArithmeticExpressionTest {
 
 	@Before

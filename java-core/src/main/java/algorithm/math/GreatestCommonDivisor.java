@@ -1,4 +1,4 @@
-package algorithm;
+package algorithm.math;
 
 public class GreatestCommonDivisor {
 	
