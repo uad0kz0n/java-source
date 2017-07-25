@@ -3,7 +3,7 @@ package tesco;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class Solution2 {
+public class Solution {
 
 	public static void main(String[] args) {
 
