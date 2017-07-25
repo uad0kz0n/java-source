@@ -1,4 +1,4 @@
-package algorithm;
+package algorithm.math;
 
 import org.junit.Assert;
 import org.junit.Before;
