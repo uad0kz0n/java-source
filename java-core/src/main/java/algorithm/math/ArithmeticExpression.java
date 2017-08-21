@@ -4,14 +4,14 @@ import java.util.Stack;
 
 public class ArithmeticExpression {
 
-	public boolean isParenthesisValid(String exp) {
+	public boolean isParenthesisValid(String value) {
 
 		Stack<Character> stack = new Stack<>();
 		
-		int expSize = exp.length();
+		int expSize = value.length();
 		
 		for (int i = 0; i < expSize; i++) {
-			char part = exp.charAt(i);
+			char part = value.charAt(i);
 
 			switch (part) {
 			case '(':
@@ -26,7 +26,7 @@ public class ArithmeticExpression {
 					return false;
 				} else {
 					char openPair = stack.pop();
-					System.out.println(openPair);
+					//System.out.println(openPair);
 					if ((openPair == '(') && (part != ')') || (openPair == '[') && (part != ']') || (openPair == '{') && (part != '}')) {
 						return false;
 
