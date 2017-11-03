@@ -22,6 +22,8 @@ public class IntStreamTest {
 		IntStream.generate(() -> ThreadLocalRandom.current().nextInt(10)).limit(3).forEach( i -> System.out.printf("%d ",i) );
 		System.out.println();
 		// > n1,n2,n3
-	}
+		
+		
+	} 
 
 }
